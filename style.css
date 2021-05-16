@@ -1,0 +1,175 @@
+
+  
+
+  
+  /* NavBar CSS */
+ .bg-primary {
+    background-color: #3A519E !important;
+}
+
+.jumboMain {
+    width:100% !important;
+
+}
+.body {
+font-family: 'Cairo', sans-serif;
+}
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #3A519E !important;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* Won't be used here */
+
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 20px;}
+
+
+   /* Page content */
+  .content {
+    padding: 16px;
+  }
+ .section {
+    margin-top: 20px; 
+    padding:10px;}
+
+.jumbotron-main {
+    background-image: url("/images/racoon.png");
+    background-size: cover;
+    height: 300px;
+  }
+ 
+.card-header:not(.collapsed) {
+    background:#E07A00;}
+
+.btn-link {color: white;
+
+    }
+
+  .card-img-top {
+      height: 150px;
+      width: 150px;
+}
+
+  .card {
+    display: inline-flex;
+    width: 20rem;
+    min-height: 400px;
+    padding: 10px;
+  }
+
+
+    /* Test Plan CSS */
+
+    .how-section1{
+        margin-top:-15%;
+        padding: 10%;
+    }
+    .how-section1 h4{
+        color: #E07A00;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .how-section1 .subheading{
+        color: #3A519E;
+        font-size: 20px;
+    }
+    .how-section1 .row
+    {
+        margin-top: 10%;
+    }
+    .how-img 
+    {
+        text-align: center;
+    }
+    .how-img img{
+        width: 40%;
+    }
+    .row.heading h2 {
+        color: #fff;
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 0 40px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+    ul{
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+    .heading.heading-icon {
+        display: block;
+    }
+    .padding-lg {
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+     
+    .testingTask {
+      background: no-repeat center top cover;
+      background-color: #E07A00; 
+    }
+    .testingTask .cnt-block{ 
+       float:left; 
+       width:100%; 
+       background:#fff; 
+       padding:30px 20px; 
+       text-align:center; 
+       border:2px solid #d5d5d5;
+       margin: 0 0 28px;
+    }
+    .testingTask .cnt-block h3{ 
+       color:#2a2a2a; 
+       font-size:20px; 
+       font-weight:500; 
+       padding:6px 0;
+       text-transform:uppercase;
+    }
+
+    [data-toggle="collapse"]:after {
+        display: inline-block;
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          content: "\f054";
+          transform: rotate(90deg) ;
+          transition: all linear 0.25s;
+          float: right;
+          }   
+        [data-toggle="collapse"].collapsed:after {
+          transform: rotate(0deg) ;
+        }
+
+
+
+        .footer {
+            margin-top: 100px !important;
+        }
